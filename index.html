@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="form">
+        <h1>Add/edit item</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" name="title">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea name="description" cols="30" rows="10">
+
+                </textarea>
+            </div>
+            <div class="form-group">
+                <label for="deadline">Deadline</label>
+                <input type="datetime-local" name="deadline">
+            </div>
+            <div class="form-group">
+                <label for="status">Status</label>
+                <select name="status">
+                    <option value="in progress" selected>in progress</option>
+                    <option value="done">done</option>
+                    <option value="cancelled">cancelled</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="hidden" name="id" value="0">
+                <input id="save" type="submit" name="save" value="Save">
+            </div>
+        </form>
+    </div>
+    <div id="list">
+        <input id="create-item" type="button" name="create" value="Create new">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>#</td>
+                    <td>Title</td>
+                    <td>Description</td>
+                    <td>Deadline</td>
+                    <td>Status</td>
+                    <td>Actions</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

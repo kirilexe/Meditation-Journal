@@ -1,0 +1,27 @@
+#form {
+    margin-bottom: 20px;
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-group label {
+    width: 25%;
+}
+
+.form-group input, .form-group textarea {
+    width: 75%;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
