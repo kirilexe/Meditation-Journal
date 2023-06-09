@@ -237,3 +237,20 @@ button:hover{
   border-color: #9147ff;
   background: #fff;
 }
+
+body {
+  color: white;
+  font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+td, th {
+    padding: 5px 4px 6px 4px; 
+    text-align: left;
+    vertical-align: top;
+    border-radius: 15px;
+}
