@@ -101,6 +101,13 @@ createButton.addEventListener("click", () => {
     form.style.display = 'block';
 });
 
+let createButton2 = document.querySelector("#create-thing");
+createButton.addEventListener("click", () => {
+    let form = document.querySelector("#form");
+    form.style.display = 'block';
+});
+
+
 function getData() {
     let title = document.querySelector("input[name='title']");
     let description = document.querySelector("textarea[name='description']");

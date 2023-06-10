@@ -44,13 +44,13 @@ table {
     border-bottom: 2px solid #dee2e6;
     color: #fff;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(192,0,255,1) 100%);
+    background: linear-gradient(90deg, rgb(33, 82, 1) 0%, rgb(5, 138, 56) 35%, rgb(65, 160, 22) 100%);
     border-color: #32383e;
 }
 
 /* CSS */
 button{
-  background-color: #6e4cea;
+  background-color: #4cea7b;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -84,7 +84,7 @@ button:hover {
 }
 
 button span {
-  background-color: rgb(5, 6, 45);
+  background-color: rgb(31, 129, 60);
   padding: 16px 24px;
   border-radius: 6px;
   width: 100%;
@@ -104,7 +104,7 @@ button {
 }
 
 .button{
-    background-color: #6e4cea;
+    background-color: #1ba52d;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -131,7 +131,8 @@ button {
   }
   
 button:hover{
-  background-color: #9e46e6;
+  background-color: #53c925;
+  transition-duration: 0,5s;
 }
 
 
@@ -280,7 +281,7 @@ td, th {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #7604aa;
+  background-color: #04aa2e;
   color: white;
 }
 
