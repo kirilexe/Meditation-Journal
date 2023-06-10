@@ -291,3 +291,9 @@ td, th {
   border: 3px solid green;
   padding: 10px;
 }
+
+.centerlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
