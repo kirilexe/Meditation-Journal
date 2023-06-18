@@ -301,3 +301,25 @@ td, th {
 p {
   font-size: 30px;
 }
+
+.spGuide{
+  background: rgb(32, 29, 94);
+  background: linear-gradient(90deg, rgb(61, 117, 189) 0%, rgb(81, 81, 209) 41%, rgba(102,0,255,1) 100%);
+}
+
+.mindfulGuide {
+  background: rgb(93, 213, 221);
+  background: linear-gradient(90deg, rgb(52, 129, 201) 0%, rgb(104, 104, 204) 41%, rgb(0, 174, 255) 100%);
+}
+
+.Guides{
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(1, 2, 1);
+  border-radius: 5px;
+  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(33, 82, 1) 0%, rgb(5, 138, 56) 35%, rgb(65, 160, 22) 100%);
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
